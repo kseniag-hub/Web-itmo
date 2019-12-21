@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JS-2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<form action="" id="UserForm">
+    X: <input type="number" value=2 name="A" min="0" />
+    Y: <input type="number" value=2 name="B" min="0" /> 
+    <input type="button" value="Создать таблицу" onclick="CreateTable(this.form.A.value, this.form.B.value);">
+</form>
+
+<div id="Functions">
+	<div>
+        <p align="center">Изменить границы таблицы</p>
+        <form action="">
+            <input id="size_table" type="number" min="0" max="999" value="2"/>
+            <select id="option_for_table">
+            <option value="solid">Solid</option>
+            <option value="dotted">Dotted</option>
+            <option value="dashed">Dashed</option>
+            <option value="double">Double</option>
+            <option value="groove">Groove</option>
+            <option value="rige">Rige</option>
+            <option value="inset">Inset</option>
+            <option value="outset">Outset</option>
+            </select>
+            <input id="change_table" type="button" value="Изменить" onclick="setBorder();" />
+        </form>
+	</div>
+
+	<div>
+		<p align="center">Добавить заголовок</p>
+		<form action="">
+			<input id="title" type="text" placeholder = "Название для таблицы"/>
+			<input type="button" value="Добавить" onclick="addTitle();" />
+		</form>
+	</div>
+
+	<div>
+        <p align="center">Удалить строку</p>
+        <form action="">
+            <input id="Num_of_row" placeholder = "Введите номер строки" type="number" min="0" />
+            <input type="button" value="Удалить" onclick="removeTr();" />
+        </form>
+    </div>
+
+    <div>
+		<p align="center">Случайный выбор</p>
+		<button onclick="makeMagic();">Magic</button>
+	</div>
+
+	<div>
+		<p align="center">Удалить таблицу</p>
+		<button onclick="removeTable();">Удалить</button>
+	</div>
+</div><br>
+
+
+<div id="tables"></div>
+
+<script src="js-2.js"></script>
+
+</body>
+</html>

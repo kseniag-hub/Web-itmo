@@ -1,0 +1,26 @@
+#tables table {
+	border-collapse: collapse;
+}
+
+#tables td {
+	border: 2px solid #CC0066;
+}
+
+#Functions {
+	display: none;
+}
+
+#Functions div {
+	display: inline-block;
+	border: 2px solid #F4A460;
+	border-radius: 5px;	
+	background: #F5DEB3;
+}
+ 
+#UserForm{
+	display: inline-block;
+	border: 2px solid #F4A460;
+	border-radius: 5px;	
+	background: #F5DEB3;
+	width: 1;
+}

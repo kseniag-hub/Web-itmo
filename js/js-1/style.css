@@ -1,0 +1,82 @@
+#button {
+	width: 231px; 
+}
+} 
+#button1 {
+	width: 160px; 
+}
+
+.name {
+    background-image: url('Santa.png');
+	background-size: 20px;  
+    border-radius: 10px;
+ 	background-position: 3px, 1px;
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-bottom:10px;
+    padding-left: 25px;
+} 
+
+.name:hover {
+
+    background: #F0E4E0 url('bell.png') no-repeat;
+    background-size: 20px;  
+ 	background-position: 3px, 1px;
+	cursor: pointer; 
+	transition: background 200ms;
+   } 
+
+.attachment {
+    background-image: url(star.png); 
+	background-size: 20px;  
+    border-radius: 10px;
+ 	background-position: 3px, 1px;
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-bottom:10px;
+
+    padding-left: 25px;
+} 
+.attachment:hover {
+    background: #F0E4E0 url('bell.png') no-repeat;
+    background-size: 20px;  
+ 	background-position: 3px, 1px;
+	cursor: pointer; 
+	transition: background 200ms;
+   } 
+
+.reset {
+    background-image: url(house.png); 
+	background-size: 20px;  
+    border-radius: 10px;
+ 	background-position: 3px, 1px;
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-bottom:10px;
+
+    padding-left: 25px;
+} 
+.reset:hover {
+    background: #F0E4E0 url('bell.png') no-repeat;
+    background-size: 20px;  
+ 	background-position: 3px, 1px;
+	cursor: pointer; 
+	transition: background 200ms;
+}
+.number_of_inputs {
+    background-image: url(confetti.png); 
+	background-size: 20px;  
+    border-radius: 10px;
+ 	background-position: 3px, 1px;
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-bottom:10px;
+
+    padding-left: 25px;
+} 
+.number_of_inputs:hover {
+    background: #F0E4E0 url('bell.png') no-repeat;
+    background-size: 20px;  
+ 	background-position: 3px, 1px;
+	cursor: pointer; 
+	transition: background 200ms;
