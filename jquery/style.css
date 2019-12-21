@@ -1,0 +1,17 @@
+#refbutton{
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	border: red solid 2px;
+	width: 70px;
+	height: 30px; 
+}
+
+#ref{
+	width: 100%;
+	height: 100%;
+}
+
+.htmlcontent1, .htmlcontent5{
+	display: none;
+}
