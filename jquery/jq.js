@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$("p").css("fontSize", "40px");
-	$(".links1").css("color", "blue"	);
+	$(".links1").css("color", "blue");
 	$(".links2").css("color", "grey");
 	$("form *").attr("disabled", "disabled");
 });
@@ -30,18 +30,18 @@ $("#ref").click(function () {
 
 $(document).ready(function(){
 	$(".cool1").click(function(){
-  	$(".htmlcontent1").fadeIn(3000);
+  	$(".htmlcontent1").fadeIn(1000);
 	});
 	$(".cool2").click(function(){
- 	 $(".htmlcontent2").fadeOut(3000);
+ 	 $(".htmlcontent2").fadeOut(1000);
 	});
 	$(".cool3").click(function(){
- 	 $(".htmlcontent3").fadeToggle(3000);
+ 	 $(".htmlcontent3").fadeToggle(1000);
 	});
 	$(".cool4").click(function(){
- 	 $(".htmlcontent4").fadeTo(3000, 0.4);
+ 	 $(".htmlcontent4").fadeTo(1000, 0.2);
 	});
 	$(".cool5").click(function(){
- 	 $(".htmlcontent5").slideDown(3000);
+ 	 $(".htmlcontent5").slideDown(1000);
 	});
 });
