@@ -26,7 +26,6 @@ $("#ref").click(function () {
 	});
 });
 
-// document.write(document.links[0].href);
 
 $(document).ready(function(){
 	$(".cool1").click(function(){
