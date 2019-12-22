@@ -39,14 +39,14 @@ function addTitle() {
 
 function removeTr() {
 let trs = document.querySelectorAll(`#tables tr`);
-if (document.querySelector(`#Num_of_row`).value >= trs.length) alert("Неверное кол-во строк!");
+if (document.querySelector(`#Num_of_row`).value >= trs.length) alert("Недопустимое количество строк");
   else {
     let tr = trs[document.querySelector(`#Num_of_row`).value];
     tr.parentNode.removeChild(tr);
   }
 }
 
-function makeMagic() {
+function rand() {
   let tds = document.querySelectorAll(`#tables td`);
   let td = tds[Math.floor(Math.random() * tds.length)];
   if (!tds.length) return;
