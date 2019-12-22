@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$("p").css("fontSize", "40px");
-	$(".links1").css("color", "red"	);
+	$(".links1").css("color", "blue"	);
 	$(".links2").css("color", "grey");
 	$("form *").attr("disabled", "disabled");
 });
